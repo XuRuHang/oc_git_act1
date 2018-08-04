@@ -1,2 +1,2 @@
-Ce projet correespond au jeu de devinette javascript du cours
+Ce projet correespond au gestionnaire de contacts du cours
 OpenClassrooms intitulé "Apprendre à coder avec Javascript"
