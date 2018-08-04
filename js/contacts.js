@@ -11,3 +11,11 @@ var Contact = {
 };
 
 var listeContacts = [];
+
+var contact1 = Object.create(Contact);
+contact1.init("Carole", "Lévisse");
+listeContacts.push(contact1);
+
+var contact2 = Object.create(Contact);
+contact2.init("Mélodie", "Nelsonne");
+listeContacts.push(contact2);
