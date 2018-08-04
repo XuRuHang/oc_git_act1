@@ -6,7 +6,7 @@ var Contact = {
         this.nom = nom;
     },
     decrire: function () {
-        return "Nom: " + this.nom + ", prénom: " + this.prenom;
+	return this;
     }
 };
 
@@ -31,9 +31,7 @@ while (saisie !== "0") {
     switch (saisie) {
         case "1":
             console.log("Voici la liste de tous vos contacts:");
-            listeContacts.forEach(function (contact) {
-                console.log(contact.decrire());
-            });
+	    console.table(listeContacts);
             break;
         case "2":
             var saisieNom = prompt("Donner nom:");
